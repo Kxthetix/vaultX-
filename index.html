@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VaultX – Where Security Meets Innovation</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="logo.png" alt="VaultX Logo" class="logo-img" onerror="this.style.display='none'; document.getElementById('logo-text').style.display='flex'"/>
+        <div id="logo-text" class="logo-text-fallback">
+          <div class="logo-hex">⬡</div>
+          <span>vaultX</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Get Protected</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-inner">
+      <div class="hero-logo-wrap">
+        <img src="logo.png" alt="VaultX" class="hero-logo" onerror="this.style.display='none'"/>
+      </div>
+      <div class="badge">🔒 Trusted by 500+ Enterprises</div>
+      <h1 class="hero-title">Where <span class="accent">Security</span><br/>Meets Innovation</h1>
+      <p class="hero-sub">VaultX delivers enterprise-grade cybersecurity — from penetration testing to real-time network defense. Your digital fortress starts here.</p>
+      <div class="hero-actions">
+        <a href="#services" class="btn-primary">Explore Services</a>
+        <a href="#contact" class="btn-ghost">Schedule Audit →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Clients Protected</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">99.9%</span><span class="stat-label">Threat Detection Rate</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Security Operations</span></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-inner">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">Comprehensive <span class="accent">Security</span> Solutions</h2>
+      <p class="section-sub">End-to-end protection tailored for modern threats and evolving digital landscapes.</p>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-aos>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="8" width="36" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 36v4M32 36v4M10 40h28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="24" cy="22" r="6" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M24 16v-4M24 32v-4M30 22h4M14 22h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="service-tag">WEB SECURITY</div>
+          <h3>Web Security Testing</h3>
+          <p>Comprehensive analysis of web applications for OWASP Top 10 vulnerabilities including SQL injection, XSS, CSRF, broken authentication, and insecure data exposure.</p>
+          <ul class="service-features">
+            <li>OWASP Top 10 Scanning</li>
+            <li>API Security Assessment</li>
+            <li>Session Management Review</li>
+            <li>Source Code Analysis</li>
+          </ul>
+          <a href="#pricing" class="service-link">View Plans →</a>
+        </div>
+
+        <div class="service-card featured" data-aos>
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 16l16-8 16 8v10c0 9-7 16-16 18C15 42 8 35 8 26V16z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M18 24l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="service-tag">VAPT</div>
+          <h3>Vulnerability Assessment & Penetration Testing</h3>
+          <p>Simulate real-world cyberattacks to identify and exploit security gaps before malicious actors do. Our ethical hackers go deep — so you can stay ahead.</p>
+          <ul class="service-features">
+            <li>Network Penetration Testing</li>
+            <li>Social Engineering Simulation</li>
+            <li>Red Team Operations</li>
+            <li>Compliance Reporting (ISO/NIST)</li>
+          </ul>
+          <a href="#pricing" class="service-link">View Plans →</a>
+        </div>
+
+        <div class="service-card" data-aos>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="20" width="10" height="8" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="34" y="20" width="10" height="8" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="19" y="8" width="10" height="8" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <rect x="19" y="32" width="10" height="8" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M14 24h5M29 24h5M24 16v4M24 32v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="service-tag">NETWORK</div>
+          <h3>Network Security</h3>
+          <p>Fortify your entire network infrastructure with continuous monitoring, firewall optimization, intrusion detection, and zero-trust architecture implementation.</p>
+          <ul class="service-features">
+            <li>Firewall Configuration Audit</li>
+            <li>IDS/IPS Deployment</li>
+            <li>Zero Trust Architecture</li>
+            <li>24/7 Network Monitoring</li>
+          </ul>
+          <a href="#pricing" class="service-link">View Plans →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="section-inner">
+      <div class="section-label">Transparent Pricing</div>
+      <h2 class="section-title">Service <span class="accent">Charges</span></h2>
+      <p class="section-sub">Choose the security tier that fits your organization. All plans include detailed reports and expert consultation.</p>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <div class="pricing-tier">Starter</div>
+          <div class="pricing-amount"><span class="currency">₹</span>24,999<span class="per">/project</span></div>
+          <p class="pricing-desc">Ideal for startups and small businesses needing foundational security checks.</p>
+          <ul class="pricing-features">
+            <li>✓ Web Application Scan</li>
+            <li>✓ OWASP Top 10 Report</li>
+            <li>✓ Basic Vulnerability Assessment</li>
+            <li>✓ PDF Report + Recommendations</li>
+            <li>✓ 1 Revision Cycle</li>
+            <li class="disabled">✗ Network Penetration Test</li>
+            <li class="disabled">✗ Red Team Operations</li>
+          </ul>
+          <a href="#contact" class="btn-outline">Get Started</a>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="popular-tag">Best Value</div>
+          <div class="pricing-tier">Professional</div>
+          <div class="pricing-amount"><span class="currency">₹</span>74,999<span class="per">/project</span></div>
+          <p class="pricing-desc">Full-spectrum security for growing companies and medium enterprises.</p>
+          <ul class="pricing-features">
+            <li>✓ Full VAPT Assessment</li>
+            <li>✓ Network Security Audit</li>
+            <li>✓ Web + API Security Testing</li>
+            <li>✓ Firewall Configuration Review</li>
+            <li>✓ Executive + Technical Reports</li>
+            <li>✓ 3 Revision Cycles</li>
+            <li>✓ Post-fix Verification</li>
+          </ul>
+          <a href="#contact" class="btn-primary">Get Started</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-tier">Enterprise</div>
+          <div class="pricing-amount"><span class="currency">₹</span>Custom</div>
+          <p class="pricing-desc">Dedicated security operations for large organizations and critical infrastructure.</p>
+          <ul class="pricing-features">
+            <li>✓ Everything in Professional</li>
+            <li>✓ Red Team Operations</li>
+            <li>✓ Social Engineering Tests</li>
+            <li>✓ 24/7 SOC Monitoring</li>
+            <li>✓ Compliance (ISO 27001/NIST)</li>
+            <li>✓ Dedicated Security Analyst</li>
+            <li>✓ Unlimited Revisions</li>
+          </ul>
+          <a href="#contact" class="btn-outline">Contact Us</a>
+        </div>
+
+      </div>
+
+      <!-- Add-ons -->
+      <div class="addons">
+        <h3 class="addon-title">Add-On Services</h3>
+        <div class="addon-grid">
+          <div class="addon-item"><span class="addon-name">Social Engineering Simulation</span><span class="addon-price">₹12,000</span></div>
+          <div class="addon-item"><span class="addon-name">Cloud Security Review (AWS/Azure/GCP)</span><span class="addon-price">₹18,000</span></div>
+          <div class="addon-item"><span class="addon-name">Mobile App Security Testing</span><span class="addon-price">₹15,000</span></div>
+          <div class="addon-item"><span class="addon-name">Security Awareness Training</span><span class="addon-price">₹8,000</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT + CLIENT FORM -->
+  <section class="contact" id="contact">
+    <div class="section-inner">
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="section-title">Let's Secure<br/><span class="accent">Your Business</span></h2>
+          <p>Our security experts are ready to assess your infrastructure and craft a protection strategy tailored to your needs.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">📧</div>
+              <div>
+                <strong>Email</strong>
+                <span>security@vaultx.in</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <strong>Phone</strong>
+                <span>+91 98765 43210</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>Headquarters</strong>
+                <span>Bengaluru, Karnataka, India</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">⏰</div>
+              <div>
+                <strong>Support Hours</strong>
+                <span>24/7 Emergency | Mon–Sat 9AM–6PM IST</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-btn">LinkedIn</a>
+            <a href="#" class="social-btn">Twitter</a>
+            <a href="#" class="social-btn">GitHub</a>
+          </div>
+        </div>
+
+        <!-- Client Form -->
+        <div class="contact-form-wrap">
+          <h3 class="form-title">Request a Free Security Assessment</h3>
+          <form id="clientForm" class="client-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name *</label>
+                <input type="text" id="fname" name="fname" placeholder="Ravi" required/>
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name *</label>
+                <input type="text" id="lname" name="lname" placeholder="Kumar" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Business Email *</label>
+              <input type="email" id="email" name="email" placeholder="ravi@company.com" required/>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required/>
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name *</label>
+              <input type="text" id="company" name="company" placeholder="Your Company Pvt Ltd" required/>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="size">Company Size</label>
+                <select id="size" name="size">
+                  <option value="">Select size</option>
+                  <option>1–10 employees</option>
+                  <option>11–50 employees</option>
+                  <option>51–200 employees</option>
+                  <option>201–1000 employees</option>
+                  <option>1000+ employees</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="">Select budget</option>
+                  <option>Under ₹25,000</option>
+                  <option>₹25,000 – ₹75,000</option>
+                  <option>₹75,000 – ₹2,00,000</option>
+                  <option>₹2,00,000+</option>
+                  <option>Custom / Enterprise</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Services Needed</label>
+              <div class="checkbox-group">
+                <label class="checkbox-label"><input type="checkbox" name="services" value="web"/> Web Security Testing</label>
+                <label class="checkbox-label"><input type="checkbox" name="services" value="network"/> Network Security</label>
+                <label class="checkbox-label"><input type="checkbox" name="services" value="vapt"/> VAPT</label>
+                <label class="checkbox-label"><input type="checkbox" name="services" value="cloud"/> Cloud Security</label>
+                <label class="checkbox-label"><input type="checkbox" name="services" value="mobile"/> Mobile App Security</label>
+                <label class="checkbox-label"><input type="checkbox" name="services" value="compliance"/> Compliance</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Security Concerns</label>
+              <textarea id="message" name="message" rows="4" placeholder="Describe your current setup, any known vulnerabilities, compliance requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <span>Request Free Assessment</span>
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✅</div>
+            <h4>Request Submitted!</h4>
+            <p>Thank you! Our security team will contact you within 24 hours to schedule your free assessment.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="logo.png" alt="VaultX" class="logo-img-sm" onerror="this.style.display='none'"/>
+          <span>vaultX</span>
+        </div>
+        <p>Where Security Meets Innovation.<br/>Protecting digital assets since 2019.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <strong>Services</strong>
+          <a href="#services">Web Security Testing</a>
+          <a href="#services">Network Security</a>
+          <a href="#services">VAPT</a>
+          <a href="#services">Cloud Security</a>
+        </div>
+        <div class="footer-col">
+          <strong>Company</strong>
+          <a href="#">About Us</a>
+          <a href="#">Case Studies</a>
+          <a href="#">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <strong>Legal</strong>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">NDA Templates</a>
+          <a href="#">Responsible Disclosure</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 VaultX Technologies Pvt Ltd. All rights reserved.</span>
+      <span>🔒 ISO 27001 Certified | CERT-In Empanelled</span>
+    </div>
+  </footer>
+
+  <!-- Clients Data Modal (Admin View) -->
+  <div class="modal-overlay" id="adminModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3>📋 Client Submissions</h3>
+        <button class="modal-close" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body" id="clientList">
+        <p class="no-clients">No client submissions yet.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-outline" id="exportBtn">Export CSV</button>
+        <button class="btn-outline danger" id="clearBtn">Clear All</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin trigger (hidden, triple-click footer bottom) -->
+  <div id="adminTrigger" class="admin-trigger" title="Admin Panel"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
